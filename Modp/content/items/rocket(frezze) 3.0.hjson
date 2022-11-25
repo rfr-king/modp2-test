@@ -1,0 +1,5 @@
+name: rocket(frezze) 3.0
+type: item
+hardness: 4
+flammability: 0.1
+explosiveness: 0
