@@ -1,0 +1,72 @@
+{
+  "type": "ItemTurret",
+  "name": "Swarmer NEO",
+  "description": "A better version of the swarmer. More damage and attack speed.",
+  "health": 1800,
+  "reload": 37,
+  "heatColor": "ff2020",
+  "shootCone": 20,
+  "outputsLiquids": true,
+  "shootShake": 0.3,
+  "inaccuracy": 1,
+  "recoilAmount": 2.6,
+  "size": 3,
+  "range": 190,
+  "restitution": 0.07,
+  "cooldown": 0.07,
+  "acceptCoolant": false,
+  "shoot": {
+    "type": "ShootAlternate",
+    "shots": 7,
+    "spread": 3,
+    "barrels": 7,
+    "shotDelay": 5
+  },
+  "coolantMultiplier": 0,
+  "maxAmmo": 75,
+  "ammoTypes": {
+    "blast-compound": {
+      "type": "MissileBulletType",
+      "width": 8,
+      "height": 8,
+      "shrinkY": 0,
+      "splashDamageRadius": 30,
+      "splashDamage": 42,
+      "ammoMultiplier": 5,
+      "hitEffect": "blastExplosion",
+      "despawnEffect": "blastExplosion",
+      "status": "blasted",
+      "statusDuration": 60,
+      "damage": 10,
+      "speed": 6,
+      "lifetime": 30
+    },
+    "pyratite": {
+      "type": "MissileBulletType",
+      "frontColor": "e49431",
+      "backColor": "c9842f",
+      "widht": 7,
+      "height": 8,
+      "shrinkY": 0,
+      "homingPower": 0.08,
+      "splashDamageRadius": 20,
+      "splashDamage": 40,
+      "damage": 14,
+      "makeFire": true,
+      "ammoMultiplier": 5,
+      "hitEffect": "blastExplosion",
+      "status": "burning"
+      "speed": 6,
+      "lifetime": 30
+    }
+  },
+  "requirements": [
+    {
+      "item": "copper",
+      "amount": 2
+    }
+  ],
+  "shootSound": "missile",
+  "category": "turret",
+  "research": "duo"
+}

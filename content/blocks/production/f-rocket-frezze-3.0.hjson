@@ -1,0 +1,62 @@
+type: GenericCrafter
+name: Level 2.0 frezze rocketcrafter
+description:  ....
+size: 2
+health: 55
+hasPower: true
+reseach: duo
+hasItems: true
+itemCapacity: 20
+hasLiquids: true
+craftEffect: pulverizeRed
+craftTime: 50
+"consumes": {
+    "power": 1.7,
+    "liquid": {
+      "liquid": "cryofluid",
+      "amount": 0.05
+    }
+    "items": {
+      "items": [
+        {
+          "item": "copper",
+          "amount": 8
+        },
+        {
+          "item": "coal",
+          "amount": 2
+        },
+        {
+          "item": "graphite",
+          "amount": 2
+        },
+        {
+          "item": "metaglass",
+          "amount": 2
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: rocket(frezze) 3.0
+    amount: 1
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 180
+    }
+    {
+      "item": "lead"
+      "amount": 150
+    }
+    {
+      "item": "graphite"
+      "amount": 150
+    }
+    {
+      "item": "thorium"
+      "amount": 150
+    }
+  ]

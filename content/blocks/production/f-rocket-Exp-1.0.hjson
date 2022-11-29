@@ -1,0 +1,44 @@
+type: GenericCrafter
+name: Level 1.0 explosive rocketcrafter
+description: Crafts first fire rockets.
+size: 2
+health: 55
+hasPower: false
+reseach: duo
+hasItems: true
+itemCapacity: 20
+craftEffect: pulverizeRed
+craftTime: 50
+"consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "copper"
+          "amount": 8
+        }
+        {
+          "item": "coal"
+          "amount": 7
+        }
+        {
+          "item": "graphite"
+          "amount": 3
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: rocket(Exp) 1.0
+    amount: 1
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 210
+    }
+    {
+      "item": "lead"
+      "amount": 180
+    }
+  ]

@@ -1,0 +1,53 @@
+type: GenericCrafter
+name: Level 2.0 explosive rocketcrafter
+description: Crafts explosive rockets.
+size: 2
+health: 55
+hasPower: true
+reseach: duo
+hasItems: true
+itemCapacity: 20
+craftEffect: pulverizeRed
+craftTime: 50
+"consumes": {
+    "power": 1.6
+    "items": {
+      "items": [
+        {
+          "item": "copper"
+          "amount": 8
+        }
+        {
+          "item": "coal"
+          "amount": 3
+        }
+        {
+          "item": "graphite"
+          "amount": 3
+        }
+        {
+          "item": "blast-compound"
+          "amount": 1
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: rocket(Exp) 3.0
+    amount: 1
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 210
+    }
+    {
+      "item": "lead"
+      "amount": 180
+    }
+    {
+      "item": "metaglass"
+      "amount": 80
+    }
+  ]

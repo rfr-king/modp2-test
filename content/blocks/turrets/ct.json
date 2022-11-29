@@ -1,0 +1,98 @@
+
+type: ItemTurret
+name: Turtle 1.00
+health: 55
+size: 1
+reload: 1
+research: duo 
+inaccuracy: 0
+recoilAmount: 0
+targetAir: true
+range: 30
+restitution: 0
+cooldown: 0
+acceptCoolant: false
+shoot: {
+  type: Shoot
+} 
+coolantMultiplier: 0
+maxAmmo: 5
+"ammoTypes": {
+ "copper": {
+    "type": "MissileBulletType",
+    "frontColor": "e49431",
+    "backColor": "c9842f",
+    "widht": 7,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "damage": 14,
+    "ammoMultiplier": 5,
+    "hitEffect": "blastExplosion",
+    "speed": 6,
+    "lifetime": 30
+   }
+  "rocket(F) 0.5": {
+    "type": "MissileBulletType",
+    "frontColor": "e49431",
+    "backColor": "c9842f",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 20,
+    "splashDamage": 40,
+    "damage": 14,
+    "makeFire": true,
+    "ammoMultiplier": 5,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "speed": 6,
+    "lifetime": 30
+   }
+  "rocket(F) 1.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e49431",
+    "backColor": "c9842f",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 20,
+    "splashDamage": 40,
+    "damage": 14,
+    "makeFire": true,
+    "ammoMultiplier": 5,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "speed": 3,
+    "lifetime": 30
+   }
+  "rocket(frezze) 1.0": {
+    "type": "MissileBulletType",
+    "frontColor": "E3FDFD",
+    "backColor": "E3FDFD",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 20,
+    "splashDamage": 40,
+    "damage": 14,
+    "makeFire": true,
+    "ammoMultiplier": 5,
+    "hitEffect": "blastExplosion",
+    "status": "freezing"
+    "speed": 6,
+    "lifetime": 30
+   }
+}
+requirements: [   
+  {
+   item: copper
+   amount: 120 
+  }
+]
+category: turret
+
+

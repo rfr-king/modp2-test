@@ -1,0 +1,61 @@
+type: GenericCrafter
+name: Level 2.0 fire rocketcrafter
+description: Crafts fire rockets.
+size: 2
+health: 55
+hasPower: true
+reseach: duo
+hasItems: true
+itemCapacity: 20
+craftEffect: pulverizeRed
+craftTime: 50
+"consumes": {
+    "power": 0.15
+    "items": {
+      "items": [
+        {
+          "item": "copper"
+          "amount": 8
+        }
+        {
+          "item": "coal"
+          "amount": 8
+        }
+        {
+          "item": "graphite"
+          "amount": 2
+        }
+        {
+          "item": "plastanium"
+          "amount": 2
+        }
+        {
+          "item": "pyratite"
+          "amount": 1
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: rocket(F) 3.0
+    amount: 1
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 180
+    }
+    {
+      "item": "lead"
+      "amount": 130
+    }
+    {
+      "item": "graphite"
+      "amount":130
+    }
+    {
+      "item": "plastanium"
+      "amount":130
+    }
+  ]

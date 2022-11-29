@@ -1,0 +1,176 @@
+
+type: ItemTurret
+name: Alh rocket launch t1(2
+health: 55
+size: 2
+reload: 90
+research: ct 
+inaccuracy: 10
+recoilAmount: 0.2
+targetAir: true
+range: 150
+restitution: 0
+acceptCoolant: false
+coolantMultiplier: 0
+maxAmmo: 6
+"ammoTypes": {
+ "copper": {
+    "type": "MissileBulletType",
+    "frontColor": "e49431",
+    "backColor": "c9842f",
+    "widht": 7,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "damage": 14,
+    "ammoMultiplier": 5,
+    "hitEffect": "blastExplosion",
+    "speed": 6,
+    "lifetime": 30
+   }
+  "rocket(F) 0.5": {
+    "type": "MissileBulletType",
+    "frontColor": "e49431",
+    "backColor": "e49431",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 20,
+    "splashDamage": 40,
+    "damage": 14,
+    "makeFire": true,
+    "ammoMultiplier": 5,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "speed": 6,
+    "lifetime": 30
+   }
+  "rocket(F) 1.0": {
+    "type": "MissileBulletType",
+    "frontColor": "d7876f",
+    "backColor": "d7876f",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 6,
+    "splashDamage": 6,
+    "damage": 10,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "statusDuration": 110
+    "speed": 6,
+    "lifetime": 30
+   }
+  "rocket(frezze) 1.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e3fdfd",
+    "backColor": "e3fdfd",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 4,
+    "splashDamage": 1,
+    "damage": 10,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "freezing"
+    "statusDuration": 70
+    "speed": 6,
+    "lifetime": 30
+   }
+   "rocket(Exp) 1.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e79296",
+    "backColor": "e79296",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 10,
+    "splashDamage": 8,
+    "damage": 10,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "speed": 6,
+    "lifetime": 30
+   }
+   "rocket(F) 2.0": {
+    "type": "MissileBulletType",
+    "frontColor": "d7876f",
+    "backColor": "d7876f",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 8,
+    "splashDamage": 8,
+    "damage": 12,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "burning"
+    "statusDuration": 230
+    "speed": 6,
+    "lifetime": 26
+   }
+   "rocket(frezze) 2.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e3fdfd",
+    "backColor": "e3fdfd",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 6,
+    "splashDamage": 3,
+    "damage": 14,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "status": "freezing"
+    "statusDuration": 90
+    "speed": 6,
+    "lifetime": 26
+   }
+   "rocket(Exp) 2.0": {
+    "type": "MissileBulletType",
+    "frontColor": "e79296",
+    "backColor": "e79296",
+    "widht": 8,
+    "height": 8,
+    "shrinkY": 0,
+    "homingPower": 0.08,
+    "splashDamageRadius": 14,
+    "splashDamage": 10,
+    "damage": 14,
+    "makeFire": true,
+    "ammoMultiplier": 1,
+    "hitEffect": "blastExplosion",
+    "speed": 6,
+    "lifetime": 26
+   }
+}
+requirements: [   
+  {
+   item: copper
+   amount: 120 
+  }
+  {
+   item: lead
+   amount: 120 
+  }
+  {
+   item: silicon
+   amount: 120 
+  }
+]
+category: turret
+
+
