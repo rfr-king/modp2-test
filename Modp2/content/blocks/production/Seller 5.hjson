@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Seller graphite
+description: sell
+size: 5
+health: 250
+hasPower: false
+reseach: duo
+hasItems: true
+itemCapacity: 100
+craftEffect: pulverizeRed
+craftTime: 0.1
+"consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "graphite"
+          "amount": 1
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: coin
+    amount: 35
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 1
+    }
+  ]
