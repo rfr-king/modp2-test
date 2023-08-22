@@ -1,8 +1,0 @@
-name: "coins"
-displayName: "coins"
-author: OTANK
-description: ""
-version: "0.75"
-minGameVersion: "136.3"
-dependencies: [ ]
-hidden: false
