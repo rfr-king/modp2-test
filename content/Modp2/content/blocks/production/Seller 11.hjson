@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: Seller surge alloy
+description: sell
+size: 5
+health: 250
+hasPower: false
+reseach: duo
+hasItems: true
+itemCapacity: 500
+craftEffect: pulverizeRed
+craftTime: 0.1
+"consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "surge-alloy"
+          "amount": 1
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: coin stack
+    amount: 28
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 1
+    }
+  ]
