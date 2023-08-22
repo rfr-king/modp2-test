@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: Buyer graphite
+description: buy
+size: 5
+health: 250
+hasPower: false
+reseach: duo
+hasItems: true
+itemCapacity: 100
+craftEffect: pulverizeRed
+craftTime: 0.1
+"consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "coin"
+          "amount": 35
+        }
+      ]
+    }
+  }
+outputItem: {
+    item: graphite
+    amount: 1
+  }
+category: "crafting"
+ "requirements": [
+    {
+      "item": "copper"
+      "amount": 100
+    }
+    {
+      "item": "lead"
+      "amount": 100
+    }
+  ]

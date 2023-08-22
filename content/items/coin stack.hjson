@@ -1,0 +1,5 @@
+name: coin stack
+type: item
+hardness: 4
+flammability: 2
+explosiveness: 100000000000000000000000000000000000000000000000000000
